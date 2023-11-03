@@ -1,0 +1,36 @@
+
+/* specifity Rule */ 
+/* *{
+    color: rgb(217, 255, 0) !important;
+}
+
+p{
+    color: blue; */
+/* } */
+
+
+/* last Rule */
+/* p{
+    color: rebeccapurple !important; 
+}
+p{
+color: red;
+} */
+/* inherit */
+body{
+    color: red;
+    font-style: italic;
+    font-family: cursive;
+    border: 2px solid rgb(72, 0, 255);
+    padding: 10px;
+}
+.div1{
+    color: red;
+    font-style: italic;
+    font-family: cursive;
+    border: 2px solid rgb(72, 0, 255);
+    padding: inherit;
+}
+
+
+
