@@ -1,36 +1,35 @@
+/* Cascade  Last Rule */
 
-/* specifity Rule */ 
 /* *{
-    color: rgb(217, 255, 0) !important;
+    color: red;
 }
 
 p{
-    color: blue; */
-/* } */
-
-
-/* last Rule */
-/* p{
-    color: rebeccapurple !important; 
+    color: blue !important;
 }
-p{
-color: red;
+
+#kl{
+    color: green;
+}
+
+p i{
+    color: lawngreen;
+}
+
+p b {
+    color: gray;
 } */
-/* inherit */
+
+/* Inheritance */
+
 body{
     color: red;
-    font-style: italic;
-    font-family: cursive;
-    border: 2px solid rgb(72, 0, 255);
-    padding: 10px;
+    border: 1px solid blue;
+    background-color: wheat;
+    padding: 20px;
 }
-.div1{
-    color: red;
-    font-style: italic;
-    font-family: cursive;
-    border: 2px solid rgb(72, 0, 255);
+
+.kl{
+    border: inherit;
     padding: inherit;
 }
-
-
-
